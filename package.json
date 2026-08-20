@@ -1,0 +1,13 @@
+{
+  "name": "rolldown-chunking-bug-2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs",
+    "passes": "node passes.mjs"
+  },
+  "devDependencies": {
+    "rolldown": "1.2.5",
+    "rollup": "4.62.4"
+  }
+}
